@@ -3,8 +3,8 @@
 <h2>Materials</h2>
 <ol>
    <li>ligand to be docked: sti.mol2 or sti.sdf</li>
-   <li>ligand prepared by openbabel: sti_ob.pdbqt</li>
-   <li>ligand prepared by rdkit: sti_adt.pdbqt</li>
+   <li>ligand prepared by openbabel from sti.mol2: sti_ob.pdbqt</li>
+   <li>ligand prepared by ADT from sti.mol2: sti_adt.pdbqt</li>
    <li>Vina docking configure file: dock.conf</li>
    <li>protein file prepared for docking: protein.pdbqt</li>
 </ol>
