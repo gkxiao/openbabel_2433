@@ -2,6 +2,7 @@
 <p>This is an example to show how to reproduce the PDBQT tree error resulting in redocking failure repored in <a href="https://github.com/openbabel/openbabel/issues/2433">#2423</a></p>
 <h2>Materials</h2>
 <ol>
+   <li>ligand to be docked: sti.mol2 or sti.sdf</li>
    <li>ligand prepared by openbabel: sti_ob.pdbqt</li>
    <li>ligand prepared by rdkit: sti_adt.pdbqt</li>
    <li>Vina docking configure file: dock.conf</li>
