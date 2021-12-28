@@ -7,6 +7,7 @@
    <li>ligand prepared by ADT from sti.mol2: sti_adt.pdbqt</li>
    <li>Vina docking configure file: dock.conf</li>
    <li>protein file prepared for docking: protein.pdbqt</li>
+   <li>Cognate ligand: reference.sdf</li>
 </ol>
 <h2>Step to reproduce re-docking failure</h2>
 <p>1. use openbabel pdbqt</p>
