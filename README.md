@@ -12,10 +12,10 @@
 <h2>Step to reproduce re-docking failure</h2>
 <p>1. use openbabel pdbqt</p>
 <pre>
-vina --config dock.conf --ligand sti_ob.pdbqt --out sti_ob_docked.pdbqt 
+vina --config dock.conf --ligand sti_ob.pdbqt --out sti_ob_out.pdbqt 
 </pre>
 <p>2. use ADT pdbqt</p>
 <pre>
-vina --config dock.conf --ligand sti_adt.pdbqt --out sti_adt_docked.pdbqt 
+vina --config dock.conf --ligand sti_adt.pdbqt --out sti_adt_out.pdbqt 
 </pre>
 <p>3. Visualize the docking poses with cognate ligand (reference.sdf) </p>
